@@ -1,0 +1,50 @@
+.bgCustomHeader {
+    background-color: #44257d;
+}
+
+* {
+    font-family: Calibri;
+}
+
+.widthCustom {
+    max-width: 800px;
+}
+
+.textSize {
+    font-size: 24px;
+}
+
+.tabsLink {
+    font-size: 16px;
+    color: white;
+}
+
+.textGrauCustom {
+    font-size: 14px;
+    color: gray;
+}
+
+.cardTextFont {
+    font-size: 14px;
+}
+
+.imgMr {
+    margin-right: 12px;
+}
+
+.textFocusMine {
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 425px) {
+    .matchesResposnive {
+        display: none;
+    }
+
+    .textSize {
+        font-size: 20px;
+    }
+}
